@@ -1,0 +1,23 @@
+<h1>Product Information</h1>
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <td><%= @product.id %></td>
+  </tr>
+  <tr>
+    <th>Name</th>
+    <td><%= @product.name %></td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td><%= @product.description %></td>
+  </tr>
+  <tr>
+    <th>Created At</th>
+    <td><%= localize @product.created_at, :format => '%d.%m.%Y' %></td>
+  </tr>
+  <tr>
+    <th>Updated At</th>
+    <td><%= localize @product.updated_at,  :format => '%d.%m.%Y' %></td>
+  </tr>
+</table>
