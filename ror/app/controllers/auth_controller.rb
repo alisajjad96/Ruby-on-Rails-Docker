@@ -32,9 +32,9 @@ class AuthController < ApplicationController
 
     res = User.new(
       first_name: 'Test',
-      last_name: 'User',
-      display_name: 'Test User',
-      email: 'alisajjad1272@gmail.com',
+      last_name: 'User 1',
+      display_name: 'Test User 1',
+      email: 'alisajjad11111@gmail.com',
       password: 'test',
       password_confirmation: 'test',
     )

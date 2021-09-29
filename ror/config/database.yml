@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   port: 5432
   host: database
-  database: test_postgre
+  database: model_assoc
   username: <%= ENV['POSTGRES_USER'] %>
   password: <%= ENV['POSTGRES_PASSWORD'] %>
   # For details on connection pooling, see Rails configuration guide

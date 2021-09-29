@@ -2,6 +2,8 @@ class User < ApplicationRecord
 
   before_save :lowercase_email
 
+  has_many :post
+
   def lowercase_email
     self.email = email.downcase
   end
